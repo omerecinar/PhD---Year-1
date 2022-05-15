@@ -1,0 +1,644 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
+public class SceneShifts : MonoBehaviour
+{
+    /* shifting from scene to scene */
+    public void MainScene_ImportantNotes()
+
+    {
+        SceneManager.LoadScene("ImportantNotes");
+    }
+
+    public void MainScene_ListExamples()
+
+    {
+        SceneManager.LoadScene("ListExamples");
+    }
+
+    public void MainScene_TupleExamples()
+
+    {
+        SceneManager.LoadScene("TupleExamples");
+    }
+
+    public void MainScene_DictionaryExamples()
+
+    {
+        SceneManager.LoadScene("DictionaryExamples");
+    }
+
+    public void MainScene_Questions()
+
+    {
+        SceneManager.LoadScene("Questions");
+    }
+
+    public void ListExamples_AddingaNewData()
+
+    {
+        SceneManager.LoadScene("AddingaNewData");
+    }
+
+    public void ListExamples_SlicingandIndexing()
+
+    {
+        SceneManager.LoadScene("SlicingandIndexing");
+    }
+
+    public void ListExamples_ListDataTypeSpecificMethods()
+
+    {
+        SceneManager.LoadScene("ListDataTypeSpecificMethods");
+    }
+
+    public void ListDataTypeSpecificMethods_AppendMethod()
+
+    {
+        SceneManager.LoadScene("AppendMethod");
+    }
+
+    public void ListDataTypeSpecificMethods_PopMethod()
+
+    {
+        SceneManager.LoadScene("PopMethod");
+    }
+
+    public void ListDataTypeSpecificMethods_SortMethod()
+
+    {
+        SceneManager.LoadScene("SortMethod");
+    }
+
+    public void ListDataTypeSpecificMethods_SetMethod()
+
+    {
+        SceneManager.LoadScene("SetMethod");
+    }
+
+    public void SortMethod_NormalSorting()
+
+    {
+        SceneManager.LoadScene("NormalSorting");
+    }
+
+    public void SortMethod_ReverseSorting()
+
+    {
+        SceneManager.LoadScene("ReverseSorting");
+    }
+
+    public void TupleExamples_ErrorCondition()
+
+    {
+        SceneManager.LoadScene("ErrorCondition");
+    }
+
+    public void TupleExamples_TupleDataTypeSpecificMethods()
+
+    {
+        SceneManager.LoadScene("TupleDataTypeSpecificMethods");
+    }
+
+    public void TupleDataTypeSpecificMethods_CountMethod()
+
+    {
+        SceneManager.LoadScene("CountMethod");
+    }
+
+    public void TupleDataTypeSpecificMethods_IndexMethod()
+
+    {
+        SceneManager.LoadScene("IndexMethod");
+    }
+
+    public void DictionaryExamples_NestedUse()
+
+    {
+        SceneManager.LoadScene("NestedUse");
+    }
+
+    public void DictionaryExamples_DictionaryDataTypeSpecificMethods()
+
+    {
+        SceneManager.LoadScene("DictionaryDataTypeSpecificMethods");
+    }
+
+    public void DictionaryDataTypeSpecificMethods_GetMethod()
+
+    {
+        SceneManager.LoadScene("GetMethod");
+    }
+
+    public void DictionaryDataTypeSpecificMethods_KeysMethod()
+
+    {
+        SceneManager.LoadScene("KeysMethod");
+    }
+
+    public void DictionaryDataTypeSpecificMethods_ValuesMethod()
+
+    {
+        SceneManager.LoadScene("ValuesMethod");
+    }
+
+    public void DictionaryDataTypeSpecificMethods_ItemsMethod()
+
+    {
+        SceneManager.LoadScene("ItemsMethod");
+    }
+
+    /* shifting to Main Menu */
+    public void ImportantNotes_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+
+    }
+
+    /* shifting to Main Menu */
+    public void ListExamples_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+    }
+
+    /* shifting to Main Menu */
+    public void AddingaNewData_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+    }
+
+    /* shifting to Main Menu */
+    public void SlicingandIndexing_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+    }
+
+    /* shifting to Main Menu */
+    public void ListDataTypeSpecificMethods_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+    }
+
+    /* shifting to Previous Menu */
+    public void ListDataTypeSpecificMethods_ListExamples()
+
+    {
+        SceneManager.LoadScene("ListExamples");
+    }
+
+
+    /* shifting to Main Menu */
+    public void AppendMethod_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+    }
+
+    /* shifting to Previous Menu */
+    public void AppendMethod_ListExamples()
+
+    {
+        SceneManager.LoadScene("ListExamples");
+    }
+
+    /* shifting to Main Menu */
+    public void PopMethod_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+    }
+
+    /* shifting to Previous Menu */
+    public void PopMethod_ListExamples()
+
+    {
+        SceneManager.LoadScene("ListExamples");
+    }
+
+    /* shifting to Main Menu */
+    public void SortMethod_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+    }
+
+    /* shifting to Previous Menu */
+    public void SortMethod_ListExamples()
+
+    {
+        SceneManager.LoadScene("ListExamples");
+    }
+
+    /* shifting to Main Menu */
+    public void NormalSorting_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+    }
+
+    /* shifting to Previous Menu */
+    public void NormalSorting_ListDataTypeSpecificMethods()
+
+    {
+        SceneManager.LoadScene("ListDataTypeSpecificMethods");
+    }
+
+    /* shifting to Main Menu */
+    public void ReverseSorting_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+    }
+
+    /* shifting to Previous Menu */
+    public void ReverseSorting_ListDataTypeSpecificMethods()
+
+    {
+        SceneManager.LoadScene("ListDataTypeSpecificMethods");
+    }
+
+    /* shifting to Main Menu */
+    public void SetMethod_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+    }
+
+    /* shifting to Previous Menu */
+    public void SetMethod_ListExamples()
+
+    {
+        SceneManager.LoadScene("ListExamples");
+    }
+
+    /* shifting to Main Menu */
+    public void TupleDataTypeSpecificMethods_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+
+    }
+
+    /* shifting to Previous Menu */
+    public void TupleDataTypeSpecificMethods_TupleExamples()
+
+    {
+        SceneManager.LoadScene("TupleExamples");
+    }
+
+    /* shifting to Main Menu */
+    public void TupleExamples_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+
+    }
+
+    /* shifting to Main Menu */
+    public void CountMethod_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+
+    }
+
+    /* shifting to Previous Menu */
+    public void CountMethod_TupleExamples()
+
+    {
+        SceneManager.LoadScene("TupleExamples");
+
+    }
+
+    /* shifting to Main Menu */
+    public void IndexMethod_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+
+    }
+
+    /* shifting to Previous Menu */
+    public void IndexMethod_TupleExamples()
+
+    {
+        SceneManager.LoadScene("TupleExamples");
+
+    }
+
+    /* shifting to Main Menu */
+    public void NestedUse_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+
+    }
+
+    /* shifting to Main Menu */
+    public void DictionaryDataTypeSpecificMethods_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+
+    }
+
+    /* shifting to Previous Menu */
+    public void DictionaryDataTypeSpecificMethods_DictionaryExamples()
+
+    {
+        SceneManager.LoadScene("DictionaryExamples");
+    }
+
+
+    /* shifting to Main Menu */
+    public void DictionaryExamples_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+
+    }
+
+    /* shifting to Main Menu */
+    public void ErrorCondition_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+
+    }
+
+    /* shifting to Main Menu */
+    public void GetMethod_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+
+    }
+
+    /* shifting to Previous Menu */
+    public void GetMethod_DictionaryExamples()
+
+    {
+        SceneManager.LoadScene("DictionaryExamples");
+
+    }
+
+    /* shifting to Main Menu */
+    public void KeysMethod_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+
+    }
+
+    /* shifting to Previous Menu */
+    public void KeysMethod_DictionaryExamples()
+
+    {
+        SceneManager.LoadScene("DictionaryExamples");
+
+    }
+
+    /* shifting to Main Menu */
+    public void ValuesMethod_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+
+    }
+
+    /* shifting to Previous Menu */
+    public void ValuesMethod_DictionaryExamples()
+
+    {
+        SceneManager.LoadScene("DictionaryExamples");
+
+    }
+
+    /* shifting to Main Menu */
+    public void ItemsMethod_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+
+    }
+
+    /* shifting to Previous Menu */
+    public void ItemsMethod_DictionaryExamples()
+
+    {
+        SceneManager.LoadScene("DictionaryExamples");
+
+    }
+
+
+    /* shifting to Main Menu */
+    public void Questions_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+    }
+
+    /* shifting to Main Menu */
+    public void Question2_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+    }
+
+    /* shifting to Main Menu */
+    public void Question3_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+    }
+
+    /* shifting to Main Menu */
+    public void Question4_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+    }
+
+    /* shifting to Main Menu */
+    public void Question5_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+    }
+
+    /* shifting to Main Menu */
+    public void Question6_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+    }
+
+    /* shifting to Main Menu */
+    public void Question7_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+    }
+
+    /* shifting to Main Menu */
+    public void Question8_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+    }
+
+    /* shifting to Main Menu */
+    public void Question9_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+    }
+
+    /* shifting to Main Menu */
+    public void Question10_MainScene()
+
+    {
+        SceneManager.LoadScene("MainScene");
+    }
+
+    /* shifting to Next Question */
+    public void Questions_Question2()
+
+    {
+        SceneManager.LoadScene("Question2");
+    }
+
+    /* shifting to Previous Question */
+    public void Question2_Questions()
+
+    {
+        SceneManager.LoadScene("Questions");
+    }
+
+    /* shifting to Next Question */
+    public void Question2_Question3()
+
+    {
+        SceneManager.LoadScene("Question3");
+    }
+
+    /* shifting to Previous Question */
+    public void Question3_Question2()
+
+    {
+        SceneManager.LoadScene("Question2");
+    }
+
+    /* shifting to Next Question */
+    public void Question3_Question4()
+
+    {
+        SceneManager.LoadScene("Question4");
+    }
+
+    /* shifting to Previous Question */
+    public void Question4_Question3()
+
+    {
+        SceneManager.LoadScene("Question3");
+    }
+
+    /* shifting to Next Question */
+    public void Question4_Question5()
+
+    {
+        SceneManager.LoadScene("Question5");
+    }
+
+    /* shifting to Previous Question */
+    public void Question5_Question4()
+
+    {
+        SceneManager.LoadScene("Question4");
+    }
+
+    /* shifting to Next Question */
+    public void Question5_Question6()
+
+    {
+        SceneManager.LoadScene("Question6");
+    }
+
+    /* shifting to Previous Question */
+    public void Question6_Question5()
+
+    {
+        SceneManager.LoadScene("Question5");
+    }
+
+    /* shifting to Next Question */
+    public void Question6_Question7()
+
+    {
+        SceneManager.LoadScene("Question7");
+    }
+
+    /* shifting to Previous Question */
+    public void Question7_Question6()
+
+    {
+        SceneManager.LoadScene("Question6");
+    }
+
+    /* shifting to Next Question */
+    public void Question7_Question8()
+
+    {
+        SceneManager.LoadScene("Question8");
+    }
+
+    /* shifting to Previous Question */
+    public void Question8_Question7()
+
+    {
+        SceneManager.LoadScene("Question7");
+    }
+
+    /* shifting to Next Question */
+    public void Question8_Question9()
+
+    {
+        SceneManager.LoadScene("Question9");
+    }
+
+    /* shifting to Previous Question */
+    public void Question9_Question8()
+
+    {
+        SceneManager.LoadScene("Question8");
+    }
+
+    /* shifting to Next Question */
+    public void Question9_Question10()
+
+    {
+        SceneManager.LoadScene("Question10");
+    }
+
+    /* shifting to Previous Question */
+    public void Question10_Question9()
+
+    {
+        SceneManager.LoadScene("Question9");
+    }
+
+    /* EXIT */
+    public void Project_Exit()
+
+    {
+        Application.Quit();
+    }
+}
